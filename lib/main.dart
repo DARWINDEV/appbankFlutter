@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:bbvaapp/src/pages/movimientos_page.dart';
 import 'package:bbvaapp/src/pages/index_page.dart';
 import 'package:bbvaapp/src/pages/login_page.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'BBVA',
       home: Scaffold(
-        body: IndexPage()
+        body: MovimientosPage()
         ),
     );
   }
