@@ -22,7 +22,7 @@ class TiposOperacionesWidgets extends StatelessWidget {
     final size = MediaQuery.of(context).size;
 
     return Container(
-      margin: EdgeInsets.only(right: size.width * 0.10),
+      margin: EdgeInsets.only(right: size.width * 0.08),
       child: Column(
         children: <Widget>[
           Stack(
